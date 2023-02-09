@@ -1,0 +1,53 @@
+.myBody{
+    background-color: #658864;
+}
+.h-100{
+    height: 100vh!important;
+}
+.Base{
+    width: 100%;
+    height: 90%;
+}
+.Base .form-group{
+    margin-bottom: 0;
+}
+.card-header{
+    text-align: center;
+    background-color: rgb(125, 24, 24);
+    color: aliceblue;
+}
+.Base input{
+    width: 90%;
+}
+.average5 .wrap{
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+.hidden{
+    display: none;
+}
+.leftSide{
+    background-color: #DDDDDD;
+    height: fit-content;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+.rightSide{
+    background-color: #B7B78A;
+    border-radius: 5px;
+}
+.myBody .leftSide .nav-link{
+    background-color: #EEEEEE;
+    border-radius: 7px
+}
+.myBody .leftSide .nav-link.active{
+    color: #658864;
+    font-weight: 900;
+}
+.mx-autop{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
